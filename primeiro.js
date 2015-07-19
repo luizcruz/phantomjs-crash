@@ -8,7 +8,7 @@ page.open("http://exame.abril.com.br/", function(status){
 	//Valida status da requisição
 	if (status == "success"){
 		//Imprime o titulo do objeto page carregado
-		console.log(page.plainText);
+		console.log(page.title);
 	} else {
 		console.log("Erro")
 	}
